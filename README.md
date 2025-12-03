@@ -1,6 +1,6 @@
-# ChatGPT GitHub PR Review Assistant
+# AI GitHub PR Review Assistant
 
-**AI-Powered Pull Request Reviewer using ChatGPT**
+**AI-Powered Pull Request Reviewer**
 
 This project integrates **OpenAI’s ChatGPT** with **GitHub Pull Requests** into a webhook to provide automated code reviews. It automatically analyzes code changes and posts structured JSON feedback as PR comments, maintaining code quality and consistency.
 
