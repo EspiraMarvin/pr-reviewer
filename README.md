@@ -2,25 +2,25 @@
 
 **AI-Powered Pull Request Reviewer using ChatGPT**
 
-This project integrates **OpenAI’s ChatGPT** with **GitHub Pull Requests** to provide automated code reviews. It automatically analyzes code changes and posts structured JSON feedback as PR comments, maintaining code quality and consistency.
+This project integrates **OpenAI’s ChatGPT** with **GitHub Pull Requests** into a webhook to provide automated code reviews. It automatically analyzes code changes and posts structured JSON feedback as PR comments, maintaining code quality and consistency.
 
 ---
 
 ## **Features**
 
-- **Webhook verification** – Securely verifies incoming GitHub webhooks using HMAC signatures.
-- **Pull Request diff extraction** – Automatically retrieves the changed files and code diff from a PR.
-- **ChatGPT API call** – Sends PR diffs to GPT-4 to generate code review feedback.
-- **Posting JSON feedback as PR comment** – Posts structured review comments directly on the PR in GitHub.
+- [x] **Webhook verification** – Securely verifies incoming GitHub webhooks using HMAC signatures.
+- [x] **Pull Request diff extraction** – Automatically retrieves the changed files and code diff from a PR.
+- [x] **ChatGPT API call** – Sends PR diffs to GPT-4 to generate code review feedback.
+- [x] **Posting JSON feedback as PR comment** – Posts structured review comments directly on the PR in GitHub.
+- [ ] **Embeddings-Based Similarity Checks** – Use embeddings to compare new PRs with past PRs, detecting similar code changes, potential duplicate logic, or recurring issues. This allows the AI to provide context-aware suggestions, encourages code reuse, and helps reduce repetitive mistakes.
 
 ---
 
 ## **Tech Stack**
 
 - **Backend:** Node.js + Express (TypeScript)
-- **LLM API:** OpenAI GPT-4
+- **LLM API:** OpenAI GPT
 - **Version Control:** GitHub webhooks & REST API
-- **Dev Tools:** ts-node-dev, dotenv
 
 ---
 
