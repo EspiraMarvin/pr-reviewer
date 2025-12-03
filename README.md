@@ -12,7 +12,8 @@ This project integrates **OpenAI’s ChatGPT** with **GitHub Pull Requests** int
 - [x] **Pull Request diff extraction** – Automatically retrieves the changed files and code diff from a PR.
 - [x] **ChatGPT API call** – Sends PR diffs to GPT-4 to generate code review feedback.
 - [x] **Posting JSON feedback as PR comment** – Posts structured review comments directly on the PR in GitHub.
-- [ ] **Embeddings-Based Similarity Checks** – Use embeddings to compare new PRs with past PRs, detecting similar code changes, potential duplicate logic, or recurring issues. This allows the AI to provide context-aware suggestions, encourages code reuse, and helps reduce repetitive mistakes.
+- [ ] **Embeddings-Based Similarity Checks** – Use embeddings to compare new PRs with past PRs, detecting similar code changes, potential duplicate logic, or recurring issues.
+      Allowing the AI to provide context-aware suggestions, encourages code reuse, and helps reduce repetitive mistakes.
 
 ---
 
